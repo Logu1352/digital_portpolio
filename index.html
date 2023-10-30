@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+	<div class="header-content">
+<img src="profile.jpg " alt="your profile picture" class="profile-picture">
+<h1><font color="white">S.LOGANATHAN</font></h1>
+<p><font color="pink">web developer </font></p>
+</div>
+        
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+			<li><a href="#education"><font color="">Education</font></a></li>
+            <li><a href="#skills"><font color="">Skills</font></a></li>
+            <li><a href="#projects"><font color="">Projects</font></a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2><font color="blue"><u>ABOUT ME</u></font></h2>
+		<font color="red">
+        <p><h4>As a dedicated BCA (Bachelor of Computer Applications) student, I am passionate about software development and IT. I have a strong foundation in programming languages and web development. My goal is to continuously enhance my skills and knowledge in the field of computer science to become a proficient software developer.</h4></p>
+        </p>
+    </section>
+	<section id="education">
+            <h2><font color="blue"><u>EDUCATION</u></font></h2>
+            <p><strong>BCA - Bachelor of Computer Applications</strong></p>
+            <p><h4>THATHAI PERIYAR GOVT ARTS AND SCIENCE COLLEGE-trichy | 2023 - Present</h4></p>
+           
+        </section>
+        
+        <section id="skills">
+            <h2><font color="blue"><u>SKILLS</u></font></h2>
+            <ul><font color="red">
+                <li><h4>Programming Languages: Java, Python, C++</h4></li>
+                <li><h4>Web Development: HTML, CSS, JavaScript</h4></li>
+            
+            </ul>
+           
+        </section>
+        
+        <section id="projects">
+            <h2><font color="blue"><u>PROJECTS</u></font></h2>
+            <p><strong><h4>Online Bookstore Website</h4></strong></p>
+            <p><h4>Developed a fully functional online bookstore website using HTML, CSS, and JavaScript. Implemented a user-friendly interface and secure payment processing.</h4></p>
+            <p><strong><h4>Inventory Management System<h4></strong></p>
+        </section>
+    
+
+    <section id="contact">
+        <h2><font color="blue"><u>CONTACE ME</u></font></h2>
+        <p><h4><u><font color="blue">Email:</font></u> loganathanloganathan066@email.com</h4></p>
+    </section>
+	 <section id="resume">
+        <h2><font color="blue"><u>RESUME</u></font></h2>
+        <p><h4>Click the button below to download my resume:</h4></p>
+        <center><button id="downloadButton"><a href="profile.jpg"><h4>Download Resume (PDF)</h4></a></button></center>
+    </section>
+	
+    <script>
+        document.getElementById("downloadButton").addEventListener("click", function() {
+            window.location.href = "your_resume.pdf";
+        });
+    </script>
+</body>
+</html>
